@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Star, Headphones, Truck } from 'lucide-react';
 import { Link, useNavigate } from 'react-router-dom';
 import vehicle from '../../assets/vehicle.png';
+import car from '../../assets/car.png';
 
 const GhanaRideVehicles = () => {
   const [loading, setLoading] = useState(false);
@@ -25,14 +26,14 @@ const GhanaRideVehicles = () => {
   const handleBookNow = () => navigate('/newscreen');
 
   const featuredVehicles = [
-    { id: 1, name: 'Toyota Highlander', price: '₵ 450', period: '/day', rating: 4.8, reviews: 124, image: '/api/placeholder/280/200', category: 'SUV' },
-    { id: 2, name: 'Honda Civic',      price: '₵ 280', period: '/day', rating: 4.6, reviews: 89,  image: '/api/placeholder/280/200', category: 'Sedan' },
-    { id: 3, name: 'Ford Ranger',      price: '₵ 380', period: '/day', rating: 4.7, reviews: 156, image: '/api/placeholder/280/200', category: 'Pickup' },
-    { id: 4, name: 'Hyundai i10',      price: '₵ 180', period: '/day', rating: 4.5, reviews: 92,  image: '/api/placeholder/280/200', category: 'Compact' },
-    { id: 5, name: 'Mercedes-Benz C-Class', price: '₵ 650', period: '/day', rating: 4.9, reviews: 78,  image: '/api/placeholder/280/200', category: 'Luxury' },
-    { id: 6, name: 'Hyundai H1',       price: '₵ 420', period: '/day', rating: 4.6, reviews: 67,  image: '/api/placeholder/280/200', category: 'Van' },
-    { id: 7, name: 'Jeep Wrangler',    price: '₵ 520', period: '/day', rating: 4.8, reviews: 134, image: '/api/placeholder/280/200', category: 'Off-Road' },
-    { id: 8, name: 'Kia Picanto',      price: '₵ 150', period: '/day', rating: 4.4, reviews: 86,  image: '/api/placeholder/280/200', category: 'Economy' },
+    { id: 1, name: 'Toyota Highlander', price: '₵ 450', period: '/day', rating: 4.8, reviews: 124, image: car, category: 'SUV' },
+    { id: 2, name: 'Honda Civic',      price: '₵ 280', period: '/day', rating: 4.6, reviews: 89,  image: car, category: 'Sedan' },
+    { id: 3, name: 'Ford Ranger',      price: '₵ 380', period: '/day', rating: 4.7, reviews: 156, image: car, category: 'Pickup' },
+    { id: 4, name: 'Hyundai i10',      price: '₵ 180', period: '/day', rating: 4.5, reviews: 92,  image: car, category: 'Compact' },
+    { id: 5, name: 'Mercedes-Benz C-Class', price: '₵ 650', period: '/day', rating: 4.9, reviews: 78,  image: car, category: 'Luxury' },
+    { id: 6, name: 'Hyundai H1',       price: '₵ 420', period: '/day', rating: 4.6, reviews: 67,  image: car, category: 'Van' },
+    { id: 7, name: 'Jeep Wrangler',    price: '₵ 520', period: '/day', rating: 4.8, reviews: 134, image: car, category: 'Off-Road' },
+    { id: 8, name: 'Kia Picanto',      price: '₵ 150', period: '/day', rating: 4.4, reviews: 86,  image: car, category: 'Economy' },
   ];
 
   const features = [

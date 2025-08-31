@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Search, Menu, X, Star, Filter, ChevronDown, Users, Fuel, Settings, Car, Truck, Bike } from 'lucide-react';
-
+import car from '../../assets/car.png';
 const GhanaRideVehicleListing = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [selectedCategory, setSelectedCategory] = useState('all');
@@ -31,7 +31,7 @@ const GhanaRideVehicleListing = () => {
       passengers: 4,
       transmission: "Manual",
       fuel: "Petrol",
-      image: "/api/placeholder/300/200"
+      image: car
     },
     {
       id: 2,
@@ -44,7 +44,7 @@ const GhanaRideVehicleListing = () => {
       passengers: 4,
       transmission: "Automatic",
       fuel: "Petrol",
-      image: "/api/placeholder/300/200"
+      image: car
     },
     {
       id: 3,
@@ -57,7 +57,7 @@ const GhanaRideVehicleListing = () => {
       passengers: 5,
       transmission: "Automatic",
       fuel: "Petrol",
-      image: "/api/placeholder/300/200"
+      image: car
     },
     {
       id: 4,
@@ -70,7 +70,7 @@ const GhanaRideVehicleListing = () => {
       passengers: 5,
       transmission: "Manual",
       fuel: "Petrol", 
-      image: "/api/placeholder/300/200"
+      image: car
     },
     {
       id: 5,
@@ -83,7 +83,7 @@ const GhanaRideVehicleListing = () => {
       passengers: 5,
       transmission: "Automatic",
       fuel: "Petrol",
-      image: "/api/placeholder/300/200"
+      image: car
     },
     {
       id: 6,
@@ -96,7 +96,7 @@ const GhanaRideVehicleListing = () => {
       passengers: 5,
       transmission: "Automatic", 
       fuel: "Petrol",
-      image: "/api/placeholder/300/200"
+      image: car
     },
     {
       id: 7,
@@ -109,7 +109,7 @@ const GhanaRideVehicleListing = () => {
       passengers: 5,
       transmission: "Automatic",
       fuel: "Petrol",
-      image: "/api/placeholder/300/200"
+      image: car
     },
     {
       id: 8,
@@ -122,7 +122,7 @@ const GhanaRideVehicleListing = () => {
       passengers: 5,
       transmission: "Manual",
       fuel: "Diesel",
-      image: "/api/placeholder/300/200"
+      image: car
     },
     {
       id: 9,
@@ -135,7 +135,7 @@ const GhanaRideVehicleListing = () => {
       passengers: 5,
       transmission: "Manual",
       fuel: "Diesel",
-      image: "/api/placeholder/300/200"
+      image: car
     },
     {
       id: 10,
@@ -148,7 +148,7 @@ const GhanaRideVehicleListing = () => {
       passengers: 5,
       transmission: "Automatic",
       fuel: "Diesel",
-      image: "/api/placeholder/300/200"
+      image: car
     },
     {
       id: 11,
@@ -161,7 +161,7 @@ const GhanaRideVehicleListing = () => {
       passengers: 7,
       transmission: "Automatic",
       fuel: "Petrol",
-      image: "/api/placeholder/300/200"
+      image: car
     },
     {
       id: 12,
@@ -174,7 +174,7 @@ const GhanaRideVehicleListing = () => {
       passengers: 5,
       transmission: "Automatic",
       fuel: "Petrol",
-      image: "/api/placeholder/300/200"
+      image: car
     }
   ];
 

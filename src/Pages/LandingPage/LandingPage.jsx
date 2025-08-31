@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Search, Menu, X, MapPin, DollarSign, Shield, Clock, Star } from 'lucide-react';
 import car1 from "../../assets/car1.png"
 import { useNavigate } from 'react-router-dom';
+import car from '../../assets/car.png';
 
 const GhanaRideHomepage = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -15,25 +16,25 @@ const GhanaRideHomepage = () => {
     {
       id: 1,
       title: "Bikes for Adventure",
-      image: "/api/placeholder/300/200",
+      image: car,
       description: "Explore Ghana's beautiful landscapes on two wheels"
     },
     {
       id: 2,
       title: "Sedans for City Comfort",
-      image: "/api/placeholder/300/200", 
+      image: car, 
       description: "Comfortable rides for urban exploration"
     },
     {
       id: 3,
       title: "Vans for Group Travel",
-      image: "/api/placeholder/300/200",
+      image: car,
       description: "Perfect for family trips and group adventures"
     },
     {
       id: 4,
       title: "Luxury for Special Occasions",
-      image: "/api/placeholder/300/200",
+      image: car,
       description: "Premium vehicles for memorable experiences"
     }
   ];
@@ -46,7 +47,7 @@ const GhanaRideHomepage = () => {
       period: "/day",
       rating: 4.8,
       reviews: 124,
-      image: "/api/placeholder/300/200"
+      image: car
     },
     {
       id: 2,
@@ -55,7 +56,7 @@ const GhanaRideHomepage = () => {
       period: "/day", 
       rating: 4.6,
       reviews: 89,
-      image: "/api/placeholder/300/200"
+      image: car
     },
     {
       id: 3,
@@ -64,7 +65,7 @@ const GhanaRideHomepage = () => {
       period: "/day",
       rating: 4.9,
       reviews: 156,
-      image: "/api/placeholder/300/200"
+      image: car
     },
     {
       id: 4,
@@ -73,7 +74,7 @@ const GhanaRideHomepage = () => {
       period: "/day",
       rating: 4.7,
       reviews: 92,
-      image: "/api/placeholder/300/200"
+      image: car
     },
     {
       id: 5,
@@ -82,7 +83,7 @@ const GhanaRideHomepage = () => {
       period: "/day",
       rating: 4.9,
       reviews: 78,
-      image: "/api/placeholder/300/200"
+      image: car
     },
     {
       id: 6,
@@ -91,7 +92,7 @@ const GhanaRideHomepage = () => {
       period: "/day",
       rating: 4.5,
       reviews: 67,
-      image: "/api/placeholder/300/200"
+      image: car
     }
   ];
 
