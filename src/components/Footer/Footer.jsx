@@ -13,6 +13,8 @@ export default function Footer() {
               <span className="text-xl font-bold">GhanaRide</span>
             </div>
             <p className="text-gray-400">Your trusted partner for exploring Ghana</p>
+            <div className="mt-6 space-x-6"></div>
+            <p className="text-gray-400">Powered by FlyWheel Technologies</p>
           </div>
         </div>
       </footer>
