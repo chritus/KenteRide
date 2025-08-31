@@ -45,7 +45,7 @@ const Navbar = () => {
             <div className="ml-10 flex items-baseline space-x-8">
               <NavLink
                 to="/home"
-                onClick={handleNav('kenteRide/home')}
+                onClick={handleNav('/home')}
                 className={({ isActive }) =>
                   `${linkBase} ${isActive ? linkActive : linkInactive}`
                 }
@@ -54,7 +54,7 @@ const Navbar = () => {
               </NavLink>
               <NavLink
                 to="/vehiclelisting"  // ✅ match your Route path exactly
-                onClick={handleNav('kenteRide/vehiclelisting')}
+                onClick={handleNav('/vehiclelisting')}
                 className={({ isActive }) =>
                   `${linkBase} ${isActive ? linkActive : linkInactive}`
                 }
