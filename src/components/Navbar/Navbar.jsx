@@ -110,13 +110,13 @@ const Navbar = () => {
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-white border-t border-gray-200">
             <Link
               to="/home"
-              onClick={handleNav('/home')}
+              onClick={handleNav('kenteRide/home')}
               className="text-gray-900 hover:text-orange-500 block px-3 py-2 text-base font-medium"
             >
               Home
             </Link>
             <Link
-              to="/vehiclelisting"   // ✅ lowercase & leading slash
+              to="kenteRide/vehiclelisting"   // ✅ lowercase & leading slash
               onClick={handleNav('/vehiclelisting')}
               className="text-gray-700 hover:text-orange-500 block px-3 py-2 text-base font-medium"
             >

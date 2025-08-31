@@ -10,10 +10,10 @@ import NotFound from '../Pages/NotFound/NotFound'; // ✅ your real 404 componen
 
 const MainLayout = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/kenteRide">
       <Navbar />
       <Routes>
-        <Route path="kenteRide/" element={<LandingPage />} />
+        <Route path="/" element={<LandingPage />} />
         <Route path="kenteRide/home" element={<Home />} />
         <Route path="kenteRide/vehiclelisting" element={<GhanaRideVehicleListing />} />
         <Route path="kenteRide/booking" element={<BookingScreen />} />
